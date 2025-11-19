@@ -32,7 +32,6 @@ class SimpleCoverage:
 
 def create_coverage(patient_id, org_id, subscriber_id, start, end):
     """
-    Crea un recurso Coverage simple que cumple con la consigna:
     - entidad que brinda la cobertura (Organization)
     - número de afiliado
     - período de vigencia
@@ -45,3 +44,4 @@ def create_coverage(patient_id, org_id, subscriber_id, start, end):
         start=start,
         end=end,
     )
+
